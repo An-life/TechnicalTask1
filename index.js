@@ -13,7 +13,7 @@
             counterLogic.counter++;
             counterInput.setAttribute("value", `counter: ${counterLogic.counter}`);
         }
-    }
+    };
    
     let counterInput= document.createElement("input");
     counterInput.setAttribute("disabled", "disabled");
@@ -21,6 +21,7 @@
 
     let plusButton=document.createElement("button");
     plusButton.appendChild(document.createTextNode("+"));
+
     plusButton.onclick = function (){ 
         counterLogic.increment();
 
@@ -34,6 +35,7 @@
 
      let minusButton=document.createElement("button");
      minusButton.appendChild(document.createTextNode("-"));
+     
      minusButton.onclick = function (){
         counterLogic.decrement();
      
