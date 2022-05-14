@@ -1,0 +1,38 @@
+body {
+    height: 100vh;
+    background-color: rgb(8, 42, 44);
+    font-size: 30px;
+    color: rgb(125, 237, 237);
+    text-align: center;
+}
+
+button{
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    background-color: rgb(33, 135, 127);
+    border-radius: 5px;
+    border: 2px  solid rgb(163, 242, 242);
+    cursor: pointer;
+    font-size: 30px;
+    color: rgb(163, 242, 242);
+}
+
+button:hover{
+    background-color: rgb(163, 242, 242);
+    color: rgb(33, 135, 127);
+    border: 2px  solid rgb(33, 135, 127);
+}
+
+button:disabled{
+    background-color: rgb(67, 90, 90);
+    color: rgb(117, 146, 143);
+    border: 2px  solid rgb(63, 86, 84);
+}
+
+input:disabled{
+    border: none;
+    font-size: 30px;
+    background-color: inherit;
+    color: rgb(163, 242, 242);
+}
